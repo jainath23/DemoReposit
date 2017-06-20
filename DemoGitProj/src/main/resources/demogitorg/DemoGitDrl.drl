@@ -1,2 +1,8 @@
 package demogitorg;
 
+rule "Git Rule"
+when
+eval(true)
+then
+System.out.println("Git Demo Rule");
+end
